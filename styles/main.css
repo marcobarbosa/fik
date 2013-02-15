@@ -8,10 +8,16 @@
   margin: 0;
 }
 
+.post-info {
+    position: relative;
+    z-index: 20;
+}
+
 .post-content {
     overflow: hidden;
     height: 100%;
     width: 100%;
+    z-index: 10;
 }
 
 .post-content img {
