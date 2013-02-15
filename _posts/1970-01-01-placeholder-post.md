@@ -1,7 +1,8 @@
 ---
 layout: post
 title: First post
-date: 2013-02-14
+description: Nice vibe. Cheap latte.
+address: Sveavägen 12
 ---
 
 ![Fik](photos/example.jpg)

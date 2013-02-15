@@ -8,8 +8,31 @@
   margin: 0;
 }
 
+h1 {
+    font: 300 3.5em/1.5 'Oswald', sans-serif;
+    letter-spacing: 0.30em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 700 3em/1.5 'Old Standard TT', serif;
+}
+
+h3 {
+    font: italic 400 2em/1.5 'Old Standard TT', serif;
+    letter-spacing: 0.05em;
+}
+
 .post-info {
+    background: rgba(0,0,0,0.6);
+    border: 10px double rgba(255,255,255,0.9);
+    color: #fff;
+    display: block;
     position: relative;
+    padding: 2em;
+    margin: 10em auto;
+    text-align: center;
+    width: 50em;
     z-index: 20;
 }
 
