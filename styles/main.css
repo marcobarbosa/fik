@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+html, body {
+    -webkit-font-smoothing: antialiased;
+}
+
 h1 {
     font: 300 3.5em/1.5 'Oswald', sans-serif;
     letter-spacing: 0.30em;
