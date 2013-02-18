@@ -1,7 +1,9 @@
-<div class="post-info">
-    <h1>{{ post.title }}</h1>
-    <h2>{{ post.description }}</h2>
-    <h3>{{ post.address }}</h3>
+<div class="post-info fadeInDown vcard">
+    <h1 class="fn">{{ post.title }}</h1>
+    <div class="adr">
+        <span class="street-address">{{ post.address }}</span>
+    </div>
+    <p class="note">{{ post.description }}</p>
 </div>
 
 <div class="post-content">
