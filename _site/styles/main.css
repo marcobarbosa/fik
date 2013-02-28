@@ -18,6 +18,15 @@ h1 {
     text-transform: uppercase;
 }
 
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .adr {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
